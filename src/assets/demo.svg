@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" fill="#020408" />
+  <rect x="10" y="10" width="580" height="380" rx="5" fill="#0A1124" stroke="#3B82F6" stroke-width="2"/>
+  
+  <text x="30" y="50" fill="#EF4444" font-family="monospace" font-size="14">$ ./vulnerable_app</text>
+  <text x="30" y="80" fill="#EF4444" font-family="monospace" font-size="14">[!] SEGFAULT detected at 0x100045A</text>
+  <text x="30" y="110" fill="#3B82F6" font-family="monospace" font-size="14">[+] SHCR Intercepted Crash</text>
+  <text x="30" y="140" fill="#8B5CF6" font-family="monospace" font-size="14">[*] Analyzing Register State...</text>
+  <text x="30" y="170" fill="#06B6D4" font-family="monospace" font-size="14">[+] AI Classification: Null Pointer Dereference</text>
+  <text x="30" y="200" fill="#10B981" font-family="monospace" font-size="14">[+] Applying Live Patch (NOP slide)...</text>
+  <text x="30" y="230" fill="#10B981" font-family="monospace" font-size="14">[+] Execution Resumed.</text>
+  
+  <rect x="25" y="250" width="10" height="20" fill="#3B82F6">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
