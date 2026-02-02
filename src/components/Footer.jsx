@@ -12,12 +12,12 @@ const Footer = () => {
                     </div>
 
                     <div className="text-gray-500 text-sm text-center md:text-right">
-                        <p>© 2024 Self-Healing Crash Runtime.</p>
+                        <p>© 2026 Self-Healing Crash Runtime.</p>
                         <p className="mt-1">Built for Hackathon Demo Purposes.</p>
                     </div>
 
                     <div>
-                        <a href="#" className="text-gray-500 hover:text-white transition-colors">
+                        <a href="https://github.com/dubeyraghav303-cloud/SHCR" className="text-gray-500 hover:text-white transition-colors">
                             <Github className="w-6 h-6" />
                         </a>
                     </div>

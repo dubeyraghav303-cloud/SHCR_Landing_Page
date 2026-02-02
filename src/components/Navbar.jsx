@@ -43,7 +43,7 @@ const Navbar = () => {
                         </a>
                     ))}
                     <a
-                        href="#download"
+                        href="https://github.com/dubeyraghav303-cloud/SHCR/releases/download/v1.0/SHCR_Installer.dmg"
                         className="px-5 py-2 bg-primary/20 hover:bg-primary/40 border border-primary/50 rounded-full text-blue-400 hover:text-white transition-all text-sm font-semibold shadow-[0_0_10px_rgba(59,130,246,0.2)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
                     >
                         Download
